@@ -1,0 +1,245 @@
+# RSS-ленты для Telegram-канала «8-битный»
+# Тема: ИТ + AI новости
+# Использование: n8n → RSS Read → Code (JS filter) → LLM → Telegram
+
+feeds:
+
+  # ───────────────────────────────────────────────
+  # 🇷🇺 РУССКОЯЗЫЧНЫЕ ИСТОЧНИКИ
+  # ───────────────────────────────────────────────
+
+  - name: Habr / Machine Learning
+    url: https://habr.com/ru/rss/hub/machine_learning/
+    lang: ru
+    tags: [ai, ml, dev]
+
+  - name: Habr / Artificial Intelligence
+    url: https://habr.com/ru/rss/hub/artificial_intelligence/
+    lang: ru
+    tags: [ai]
+
+  - name: Habr / Все статьи
+    url: https://habr.com/ru/rss/all/
+    lang: ru
+    tags: [it, dev]
+
+  - name: vc.ru / Все материалы
+    url: https://vc.ru/rss/all
+    lang: ru
+    tags: [it, business, startup]
+
+  - name: CNews / Новости
+    url: https://www.cnews.ru/inc/rss/news.xml
+    lang: ru
+    tags: [it, enterprise]
+
+  - name: DTF / Все материалы
+    url: https://dtf.ru/rss/all
+    lang: ru
+    tags: [tech, games, digital]
+
+  # ───────────────────────────────────────────────
+  # 🌐 КРУПНЫЕ IT/AI МЕДИА (EN)
+  # ───────────────────────────────────────────────
+
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+    lang: en
+    tags: [it, startup, business]
+
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    lang: en
+    tags: [it, ai, gadgets]
+
+  - name: Wired / AI
+    url: https://www.wired.com/feed/tag/ai/latest/rss
+    lang: en
+    tags: [ai]
+
+  - name: MIT Technology Review
+    url: https://www.technologyreview.com/feed/
+    lang: en
+    tags: [ai, research, deep_tech]
+
+  - name: VentureBeat / AI
+    url: https://venturebeat.com/category/ai/feed/
+    lang: en
+    tags: [ai, business]
+
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    lang: en
+    tags: [it, ai, science]
+
+  - name: ZDNet / AI
+    url: https://www.zdnet.com/topic/artificial-intelligence/rss.xml
+    lang: en
+    tags: [ai, enterprise]
+
+  - name: Engadget
+    url: https://www.engadget.com/rss.xml
+    lang: en
+    tags: [it, gadgets, ai]
+
+  - name: The Register / AI & ML
+    url: https://www.theregister.com/software/ai_ml/headlines.atom
+    lang: en
+    tags: [ai, ml, enterprise]
+
+  - name: TechMeme
+    url: https://www.techmeme.com/feed.xml
+    lang: en
+    tags: [it, aggregator]
+
+  - name: SiliconAngle / AI
+    url: https://siliconangle.com/category/ai/feed
+    lang: en
+    tags: [ai, cloud, enterprise]
+
+  - name: AI News (TechForge)
+    url: https://artificialintelligence-news.com/feed/
+    lang: en
+    tags: [ai]
+
+  - name: Unite.AI
+    url: https://www.unite.ai/feed/
+    lang: en
+    tags: [ai, ml]
+
+  - name: Futurism / AI
+    url: https://futurism.com/categories/ai-artificial-intelligence/feed
+    lang: en
+    tags: [ai, future]
+
+  # ───────────────────────────────────────────────
+  # 🤖 ВЕНДОРЫ И ПЛАТФОРМЫ
+  # ───────────────────────────────────────────────
+
+  - name: OpenAI Blog
+    url: https://openai.com/news/rss.xml
+    lang: en
+    tags: [ai, llm, openai]
+
+  - name: Google Research Blog
+    url: https://research.google/blog/rss/
+    lang: en
+    tags: [ai, research, google]
+
+  - name: Google AI Blog (blogspot)
+    url: http://googleaiblog.blogspot.com/atom.xml
+    lang: en
+    tags: [ai, google]
+
+  - name: DeepMind Blog
+    url: https://deepmind.com/blog/feed/basic/
+    lang: en
+    tags: [ai, research, deepmind]
+
+  - name: Microsoft Research
+    url: https://www.microsoft.com/en-us/research/feed/
+    lang: en
+    tags: [ai, research, microsoft]
+
+  - name: AWS / AI
+    url: https://aws.amazon.com/blogs/aws/category/artificial-intelligence/feed/
+    lang: en
+    tags: [ai, cloud, aws]
+
+  - name: NVIDIA Developer Blog
+    url: https://developer.nvidia.com/blog/feed
+    lang: en
+    tags: [ai, gpu, nvidia]
+
+  - name: HuggingFace Blog
+    url: https://huggingface.co/blog/feed.xml
+    lang: en
+    tags: [ai, llm, models]
+
+  - name: LangChain Blog
+    url: https://blog.langchain.dev/rss/
+    lang: en
+    tags: [ai, agents, langchain]
+
+  - name: Databricks Blog
+    url: https://www.databricks.com/feed
+    lang: en
+    tags: [data, ai, mlops]
+
+  # ───────────────────────────────────────────────
+  # 📚 ИССЛЕДОВАНИЯ И ARXIV
+  # ───────────────────────────────────────────────
+
+  - name: MIT News / AI
+    url: https://news.mit.edu/rss/topic/artificial-intelligence
+    lang: en
+    tags: [ai, research, academic]
+
+  - name: BAIR Blog (Berkeley AI)
+    url: https://bair.berkeley.edu/blog/feed.xml
+    lang: en
+    tags: [ai, research]
+
+  - name: arXiv / cs.CL (NLP/LLM)
+    url: https://arxiv.org/rss/cs.CL
+    lang: en
+    tags: [ai, research, llm, nlp]
+
+  - name: arXiv / cs.LG (Machine Learning)
+    url: https://arxiv.org/rss/cs.LG
+    lang: en
+    tags: [ml, research]
+
+  - name: arXiv / cs.CV (Computer Vision)
+    url: https://arxiv.org/rss/cs.CV
+    lang: en
+    tags: [cv, research]
+
+  # ───────────────────────────────────────────────
+  # 🧑‍💻 БЛОГИ ЭКСПЕРТОВ
+  # ───────────────────────────────────────────────
+
+  - name: Simon Willison (AI практик)
+    url: https://simonwillison.net/atom/everything/
+    lang: en
+    tags: [ai, dev, tools]
+
+  - name: Chip Huyen (MLOps/LLM)
+    url: https://huyenchip.com/feed
+    lang: en
+    tags: [ml, llm, mlops]
+
+  - name: Eugene Yan (Applied ML)
+    url: https://eugeneyan.com/rss/
+    lang: en
+    tags: [ml, applied]
+
+  - name: Philipp Schmid (HuggingFace)
+    url: https://www.philschmid.de/feed.xml
+    lang: en
+    tags: [ai, llm, huggingface]
+
+  - name: KDnuggets
+    url: https://www.kdnuggets.com/feed
+    lang: en
+    tags: [ml, data, ai]
+
+  - name: Last Week in AI
+    url: https://lastweekin.ai/feed
+    lang: en
+    tags: [ai, digest, weekly]
+
+  - name: The Rundown AI
+    url: https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
+    lang: en
+    tags: [ai, digest, daily]
+
+  - name: Latent Space (AI Engineering)
+    url: https://www.latent.space/feed
+    lang: en
+    tags: [ai, agents, engineering]
+
+  - name: InforQ / AI-ML-DataEng
+    url: https://feed.infoq.com/ai-ml-data-eng/
+    lang: en
+    tags: [ml, data, engineering]
