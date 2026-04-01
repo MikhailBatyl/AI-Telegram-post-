@@ -102,11 +102,6 @@ feeds:
     lang: en
     tags: [ai]
 
-  - name: Unite.AI
-    url: https://www.unite.ai/feed/
-    lang: en
-    tags: [ai, ml]
-
   - name: Futurism / AI
     url: https://futurism.com/categories/ai-artificial-intelligence/feed
     lang: en
