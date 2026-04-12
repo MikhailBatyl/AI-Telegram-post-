@@ -2,24 +2,24 @@ feeds:
   - name: "Hackaday (Retrocomputing)"
     category: "retro"
     description: "Инженерные проекты и статьи про старое железо и софт"
-    url: "https://hackaday.com/category/retrocomputing/feed/"
+    url: https://hackaday.com/category/retrocomputing/feed/
 
   - name: "Vintage is The New Old"
     category: "retro"
     description: "Главный портал про ретро-компьютеры и 8/16-битные системы"
-    url: "https://vintageisthenewold.com/feed/"
+    url: https://vintageisthenewold.com/feed/
 
   - name: "Old School Game Blog"
     category: "retro"
     description: "Старые компьютеры (Amiga, Commodore) и игры"
-    url: "https://oldschoolgameblog.com/feed/"
+    url: https://oldschoolgameblog.com/feed/
 
-  - name: "Indie Retro News"
-    category: "retro"
-    description: "Новости ретро-кодинга и разработок под старые платформы"
-    url: "http://www.indieretronews.com/feeds/posts/default"
+  - name: Indie Retro News
+    category: retro
+    description: Новости ретро-кодинга и разработок под старые платформы
+    url: http://www.indieretronews.com/feeds/posts/default
 
-  - name: "RetroComputing Forum"
-    category: "retro"
-    description: "Живые обсуждения истории компьютеров"
-    url: "https://retrocomputingforum.com/posts.rss"
+  - name: RetroComputing Forum
+    category: retro
+    description: Живые обсуждения истории компьютеров
+    url: https://retrocomputingforum.com/posts.rss
