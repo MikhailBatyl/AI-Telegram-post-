@@ -8,16 +8,6 @@ feeds:
   # 🇷🇺 РУССКОЯЗЫЧНЫЕ ИСТОЧНИКИ
   # ───────────────────────────────────────────────
 
-  - name: Habr / Machine Learning
-    url: https://habr.com/ru/rss/hub/machine_learning/
-    lang: ru
-    tags: [ai, ml, dev]
-
-  - name: Habr / Artificial Intelligence
-    url: https://habr.com/ru/rss/hub/artificial_intelligence/
-    lang: ru
-    tags: [ai]
-
   - name: Habr / Все статьи
     url: https://habr.com/ru/rss/all/
     lang: ru
@@ -180,11 +170,6 @@ feeds:
     lang: en
     tags: [ai, research, llm, nlp]
 
-  - name: arXiv / cs.LG (Machine Learning)
-    url: https://arxiv.org/rss/cs.LG
-    lang: en
-    tags: [ml, research]
-
   - name: arXiv / cs.CV (Computer Vision)
     url: https://arxiv.org/rss/cs.CV
     lang: en
@@ -198,16 +183,6 @@ feeds:
     url: https://simonwillison.net/atom/everything/
     lang: en
     tags: [ai, dev, tools]
-
-  - name: Chip Huyen (MLOps/LLM)
-    url: https://huyenchip.com/feed
-    lang: en
-    tags: [ml, llm, mlops]
-
-  - name: Eugene Yan (Applied ML)
-    url: https://eugeneyan.com/rss/
-    lang: en
-    tags: [ml, applied]
 
   - name: Philipp Schmid (HuggingFace)
     url: https://www.philschmid.de/feed.xml
